@@ -1,0 +1,51 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body {
+    background-color: #B9BF0B;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    background-color: gray;
+    color: lightgray;
+    text-align: center;
+    display: none;
+    visibility: hidden;
+}
+
+.show {
+    display: block;
+    background-color: #B9BF0B;
+    visibility: visible;
+}
+
+
+aside {
+    background-color: moccasin;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+ul {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+}
